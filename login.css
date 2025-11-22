@@ -1,0 +1,82 @@
+body {
+    background: #fdf5df;
+}
+
+#login-container {
+    max-width: 420px;
+    margin: 80px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+#login-container h2 {
+    text-align: center;
+    color: #5ebec4;
+    margin-bottom: 22px;
+}
+
+.login-field {
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-field label {
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #444;
+}
+
+.login-field input {
+    padding: 10px 14px;
+    font-size: 0.95rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.2s;
+}
+
+.login-field input:focus {
+    border-color: #5ebec4;
+    box-shadow: 0 0 0 1px #f53f8e;
+}
+
+#login-btn {
+    width: 100%;
+    padding: 10px;
+    background: #5ebec4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#login-btn:hover {
+    color: #f92c85;
+    background: #d9f9fc;
+}
+
+.extra-links {
+    margin-top: 16px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.extra-links a {
+    color: #5ebec4;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.extra-links a:hover {
+    text-decoration: underline;
+    color: #f92c85;
+}
+/* 
+Project:BuyBuy
+Created By: AYUSH JAKHAR
+Date:23/11/2025 */

@@ -1,0 +1,92 @@
+#profile-section {
+    background: #fdf5df;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-card {
+    display: flex;
+    gap: 30px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    width: 90%;
+    max-width: 850px;
+}
+
+.profile-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.profile-pic img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.edit-pic-btn {
+    background: #5ebec4;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-info h2 {
+    color: #5ebec4;
+    margin-bottom: 20px;
+}
+
+.profile-field {
+    margin-bottom: 12px;
+}
+
+.profile-field label {
+    font-weight: bold;
+    color: #333;
+}
+
+.profile-field span {
+    margin-left: 6px;
+    color: #444;
+}
+
+.edit-profile-btn {
+    padding: 9px 14px;
+    background: #5ebec4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.edit-profile-btn:hover,
+.edit-pic-btn:hover {
+    background: #3b8f91;
+}
+
+/* Responsive banegi */
+@media (max-width: 700px) {
+    .profile-card {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+/* 
+Project:BuyBuy
+Created By: AYUSH JAKHAR
+Date:23/11/2025 */
